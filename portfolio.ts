@@ -12,49 +12,49 @@ import {
 } from "./types/sections";
 
 export const greetings: GreetingsType = {
-  name: "Hanzla Tauqeer",
-  title: "Hi all, I'm Hanzla",
+  name: "Abdul Basit Tanveer",
+  title: "Hi all, I'm Abdul Basit",
   description:
-    "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with Python, Django, React.js, and Cloud Technologies. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
+    "I'm a passionate Frontend React Developer with hands-on experience building modern, high-performance web applications using React.js, Next.js, JavaScript, and UI/UX best practices. I love learning new technologies, improving user experiences, and delivering clean, efficient, and scalable code. I'm self-motivated, detail-oriented, and always excited to collaborate and grow with a team",
   resumeLink: "#",
 };
 
 export const openSource = {
-  githubUserName: "1hanzla100",
+  githubUserName: "Basitkh12",
 };
 
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  email: "mailto:hanzla.tauqeer123@gmail.com",
-  linkedin: "https://www.linkedin.com/in/1hanzla100/",
-  github: "https://github.com/1hanzla100",
-  instagram: "https://www.instagram.com/__hanzla100",
+  email: "mailto:basitk365@gmail.com",
+  linkedin: "https://www.linkedin.com/in/abdul-basit-aa8942236/",
+  github: "https://github.com/Basitkh12",
+  // instagram: "https://www.instagram.com/__hanzla100",
   // facebook: 'https://www.facebook.com/1hanzla100',
   // twitter: 'https://twitter.com/1hanzla100',
 };
 
 export const skillsSection: SkillsSectionType = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Frontend Developer passionate about building modern web applications",
   data: [
     {
-      title: "Full Stack Development",
+      title: "Frontend Development",
       lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
       skills: [
         emoji("⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"),
         emoji("⚡ Building responsive static websites using Next.js"),
-        emoji("⚡ Building RESTful APIs in Django & Django REST Framework"),
+        // emoji("⚡ Building RESTful APIs in Django & Django REST Framework"),
       ],
       softwareSkills: [
-        {
-          skillName: "Python",
-          iconifyTag: "logos:python",
-        },
-        {
-          skillName: "Django",
-          iconifyTag: "vscode-icons:file-type-django",
-        },
+        // {
+        //   skillName: "Python",
+        //   iconifyTag: "logos:python",
+        // },
+        // {
+        //   skillName: "Django",
+        //   iconifyTag: "vscode-icons:file-type-django",
+        // },
         {
           skillName: "JavaScript",
           iconifyTag: "logos:javascript",
@@ -67,22 +67,22 @@ export const skillsSection: SkillsSectionType = {
           skillName: "Nextjs",
           iconifyTag: "vscode-icons:file-type-light-next",
         },
-        {
-          skillName: "AWS",
-          iconifyTag: "logos:aws",
-        },
-        {
-          skillName: "Heroku",
-          iconifyTag: "logos:heroku-icon",
-        },
+        // {
+        //   skillName: "AWS",
+        //   iconifyTag: "logos:aws",
+        // },
+        // {
+        //   skillName: "Heroku",
+        //   iconifyTag: "logos:heroku-icon",
+        // },
         {
           skillName: "Github",
           iconifyTag: "akar-icons:github-fill",
         },
-        {
-          skillName: "Docker",
-          iconifyTag: "logos:docker-icon",
-        },
+        // {
+        //   skillName: "Docker",
+        //   iconifyTag: "logos:docker-icon",
+        // },
       ],
     },
   ],
@@ -90,86 +90,106 @@ export const skillsSection: SkillsSectionType = {
 
 export const SkillBars: SkillBarsType[] = [
   {
-    Stack: "Frontend/Design", //Insert stack or technology you have experience in
-    progressPercentage: "85", //Insert relative proficiency in percentage
+    Stack: "React", //Insert stack or technology you have experience in
+    progressPercentage: "95", //Insert relative proficiency in percentage
   },
   {
-    Stack: "Backend",
-    progressPercentage: "90",
+    Stack: "NextJs",
+    progressPercentage: "60",
   },
   {
-    Stack: "Programming",
+    Stack: "Tailwindcss",
     progressPercentage: "95",
   },
+    {
+    Stack: "Redux Toolkit",
+    progressPercentage: "90",
+  },
+ 
 ];
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: "University of Central Punjab",
-    subHeader: "Bachelor of Science in Computer Science",
-    duration: "September 2017 - April 2020",
+    schoolName: "City University Of Science and Information Technology Peshawar",
+    subHeader: "Bachelor of Science in Software Engineering",
+    duration: "September 2018 - September 2022",
     desc: "",
-    grade: "Grade A",
+    grade: "3.27 GPA",
     descBullets: [], // Array of Strings
   },
 ];
 
 export const experience: ExperienceType[] = [
   {
-    role: "Django Developer",
-    company: "Meganos Software",
-    companyLogo: "/img/icons/common/meganos.png",
-    date: "Aug 2022 - Present",
-    desc: "I crafted backends for diverse web apps, APIs, and WebSockets in e-commerce, podcasts, and property management. Managed server upkeep, deployments on Linux, Heroku, and AWS S3. Implemented PyTest for automated unit and integration testing, slashing 4 hours of manual testing each sprint, fortifying a dependable and flawless code foundation.",
+    role: "Frontend Developer",
+    company: "FAS Logistics",
+    companyLogo: "/img/icons/common/fas.svg",
+    date: "Feb 2025 - Present",
+    desc: "I am currently working as a Frontend Developer at FAS Logistics, where I contribute to the DropYou logistics solution. My responsibilities include building and enhancing core product features, developing responsive landing pages, and maintaining the admin dashboard. I work extensively with React, Next.js, modern UI libraries, API integrations, and real-time interfaces to ensure a smooth and reliable user experience.",
   },
   {
-    role: "Full Stack Developer",
-    company: "Duseca Software",
-    companyLogo: "/img/icons/common/duseca_software_logo.jpeg",
-    date: "Jan 2022 - Sept 2023",
-    desc: "Crafted robust mobile application backends employing Django, Python, and REST APIs. Leveraged Django REST Framework, PostgreSQL, AWS, Firebase, Stripe, and WebSocket for efficient development. Collaborated across teams to surpass client expectations. Designed intuitive UIs, empowering clients to effortlessly manage their applications with a visually captivating interface.",
+    role: "Frontend Developer",
+    company: "Apptex Software Solutions",
+    companyLogo: "/img/icons/common/apptex.png",
+    date: "Jan 2024 - Oct 2024",
+    desc: "At Apptex, I contributed to projects such as Omni Casca and Skiwit, where I focused on building modern, responsive, and high-performance frontend interfaces. I developed reusable React components, integrated REST APIs, optimized performance, and ensured seamless cross-platform compatibility. Working closely with backend and design teams, I delivered intuitive UI/UX experiences that aligned with client requirements and enhanced overall product usability."
     // descBullets: [
     // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
     // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     // ],
   },
   {
-    role: "Full Stack Developer",
-    company: "ZRTechnologies",
-    companyLogo: "/img/icons/common/zrtech.jpeg",
-    date: "Aug 2022 - Jun 2023",
-    desc: "Crafting diverse web applications, I've elevated functionality and user engagement. Spearheaded Visual Portfolio, leveraging AI for captivating presentations from parsed text. Proficiently set up and optimized applications on Linux servers, guaranteeing smooth scalability and top-notch performance for seamless user experiences.",
+    role: "Frontend Developer",
+    company: "Libra Pharmaceuticals",
+    companyLogo: "/img/icons/common/libra.png",
+    date: "Sep 2023 - Feb 2024",
+    desc: "At Libra Pharmaceuticals, I worked on their Rsheen POS (Point-of-Sale) system and played a key role in developing a complete software solution for their MMR operations. I designed and built efficient, user-friendly web interfaces that improved workflow, accuracy, and overall usability. My work included creating responsive UI components, integrating APIs, enhancing system functionality.",
   },
   {
-    role: "Backend Developer",
-    company: "Bleed-AI",
-    companyLogo: "/img/icons/common/bleedAI.jpg",
-    date: "Sept 2021 - Oct 2021",
-    desc: "As a Django developer at Bleed AI, I integrated a computer vision AI model to process YouTube URLs on a website. I used Django Channels and Websockets to show real-time processing and implemented threading to run multiple instances of the AI model. I also used jQuery for UI rendering and deployed the website on a Heroku server.",
+    role: "Frontend Developer",
+    company: "SMSAMI Inc",
+    companyLogo: "/img/icons/common/smsami.png",
+    date: "Dec 2022 - Aug 2023",
+    desc: "As a Frontend Developer at Smsami, I worked on two major projects: E-Retail Point and Ziggy Job. I was responsible for building responsive, user-friendly interfaces using React.js and modern frontend best practices. My work included developing reusable components, improving UI/UX flows, integrating REST APIs, and optimizing overall performance.",
   },
 ];
 
 export const projects: ProjectType[] = [
   {
-    name: "developer-portfolio",
-    desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-    github: "https://github.com/1hanzla100/developer-portfolio",
-    link: "https://developer-portfolio-1hanzla100.vercel.app/",
+    name: "DropYou",
+    desc: "Solution For Logistics.",
+    // github: "https://github.com/1hanzla100/developer-portfolio",
+    link: "https://m.dropyou.co.uk/",
   },
   {
-    name: "Giebo",
-    desc: "A Podcast Platform where creators can easily publish and sell their podcasts, and users can purchase with Handcash BitcoinSV, the future of fast and secure transactions.",
-    link: "https://gibeo.io/",
+    name: "DropYou Landing Page",
+    desc: "DropYou Landing Page.",
+    link: "https://www.dropyou.co.uk/",
   },
   {
-    name: "O Mejor Oferta",
-    desc: "O Mejor Oferta is a mobile marketplace for buying and selling items nearby, helping users find deals on things they want and make money from items they no longer need.",
-    link: "https://play.google.com/store/apps/details?id=com.duseca.mejor_oferta",
+    name: "DropYou Admin Dashboard",
+    desc: "Dashboard to keep track of different statistics",
+    link: "https://admin.dropyou.co.uk/",
   },
   {
-    name: "Hooligan Culture",
-    desc: "A Ecommerce Platform, where shopping meets the future! With HandCash BitcoinSV integration, you can authenticate and purchase products with ease and confidence.",
-    link: "https://hooliganculture.com/",
+    name: "FAS logistics Landing Page",
+    desc: "Landing Page of the company.",
+    link: "https://www.faslogistics.co.uk/",
+  },
+    {
+    name: "OMNI landing Page",
+    desc: "Landing Page for Omni. A one stop solution for Barbers",
+    link: "https://omniconnectsdigital.com/",
+  },
+     {
+    name: "E-Retail Point",
+    desc: "POS for retail stores and Pharmacies",
+    link: "https://eretailpoint.com/",
+  },
+      {
+    name: "Abbas Law",
+    desc: "Law Firm",
+    link: "https://abbaslaw.ca/",
   },
 ];
 
@@ -196,18 +216,12 @@ export const feedbacks: FeedbackType[] = [
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: "Hanzla Tauqeer",
+  title: "Abdul Basit Tanveer",
   description: greetings.description,
   author: "Hanzla Tauqeer",
-  image: "https://avatars.githubusercontent.com/u/59178380?v=4",
-  url: "https://developer-portfolio-1hanzla100.vercel.app",
+  image: "https://avatars.githubusercontent.com/u/90819670?v=4",
+  // url: "https://developer-portfolio-1hanzla100.vercel.app",
   keywords: [
-    "Hanzla",
-    "Hanzla Tauqeer",
-    "@1hanzla100",
-    "1hanzla100",
-    "Portfolio",
-    "Hanzla Portfolio ",
-    "Hanzla Tauqeer Portfolio",
+    "Abdul Basit",
   ],
 };
